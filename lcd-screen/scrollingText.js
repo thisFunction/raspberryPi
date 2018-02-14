@@ -10,7 +10,7 @@ const lcd = new Lcd({
 lcd.on('ready', function() {
 	lcd.setCursor(16, 0);
 	lcd.autoscroll();
-	print('Look at this fancy text :) ');
+	print('Look at this fancy text! ');
 });
 
 function print(str, pos) {
