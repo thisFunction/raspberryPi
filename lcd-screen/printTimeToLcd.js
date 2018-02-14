@@ -14,9 +14,6 @@ lcd.on('ready', function() {
 		lcd.setCursor(0, 0);
  		lcd.print(new Date().toString().substring(16, 24));
 	}, 1000);
-
-	lcd.setCursor(0,1);
-	lcd.print(`Hello world!`);
 });
 
 process.on('SIGINT', function() {
